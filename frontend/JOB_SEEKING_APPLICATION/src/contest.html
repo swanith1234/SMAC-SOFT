@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CONTEST PAGE</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="leaderboard.css">
+    <link rel="stylesheet" href="leaderboardProfileStyles.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+
+<body>
+    <!-- nav bar -->
+    <div class="header w-full">
+        <div class="navbar h-16 flex max-w-[100%] items-center bg-cyan-950 text-neutral-50 text-lg">
+            <div class="menu ml-[20px]">
+                <i class="fa-solid fa-bars "></i>
+            </div>
+            <div class="logo  ml-3.5">Logo</div>
+
+            <div class="flex  items-center ml-[20%] gap-[2rem] w-[55%]">
+                <a href="" class="border-[1px] border-transparent hover:border-white p-[5px]  duration-300">Home</a>
+                <a href="" class="border-[1px] border-transparent hover:border-white p-[5px]  duration-300">About Us</a>
+                <a href="" class="border-[1px] border-transparent hover:border-white p-[5px]  duration-300">Problem of
+                    Day</a>
+                <a href="" class="border-[1px] border-transparent hover:border-white p-[5px]  duration-300">Jobs</a>
+                <a href="" class="border-[1px] border-transparent hover:border-white p-[5px]  duration-300">Contact
+                    Us</a>
+            </div>
+
+            <div class=" flex justify-between items-center gap-[3rem]  ">
+
+                <button type="button"
+                    class=" border-[1px] border-transparent hover:border-white p-[5px] duration-300 ">Log out</button>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- navbar end -->
+
+
+    <div class="hero">
+        <div
+            class="bg-[url('images/hero.jpeg')] h-[20rem] w-full bg-[center]  flex flex-column items-center justify-center mx-auto">
+
+            <div class="content text-center text-white">
+                <h2 class="text-2xl text-bold">Mock Interview</h2>
+                <p>Dive into our Mock Interview Contest this Saturday, 5-6 PM, and master the art to impress at your
+                    real interviews! Plus, seize the chance to earn valuable points, rewards and opportunities</p>
+                <button
+                    class="decoration-zinc-700  bg-slate-500 hover:bg-blue-700  font-bold py-2 px-4 mt-[30px] rounded">
+                    Register Now
+                </button>
+            </div>
+        </div>
+    </div>
+    <!-- hero-image end -->
+
+    <!-- cards starts -->
+
+    <!-- Example card 1 -->
+    <div class="mentor-cards  flex flex-row gap-5 justify-center mt-4 w-full">
+        <div style="width: 35rem;"
+            class="card-1 h-[15rem]  border-2 border-slate-500 flex md:flex-row flex-col items-center bg-gray-100 shadow-lg rounded-lg overflow-hidden row">
+            <div class="mentor-1_wrap flex flex-column col-md-6">
+                <div class="h1-div mt-[10px] ">
+                    <h3 class="text-center text-xl">Mr.Rahul</h3>
+                </div>
+
+                <div class="content-box flex-1">
+
+                    <p>Seasoned professional with extensive experience in conducting in-depth mock interviews, offering
+                        personalized feedback aimed at refining interviewing skills and enhancing candidate performance
+                        your interviewing prowess and gain invaluable insights</p>
+                </div>
+            </div>
+            <div class="image w-full md:w-1/3 col-md-6">
+                <img src="images/student_2.jpeg" alt="" class="w-[900px] h-[13rem] object-cover">
+            </div>
+        </div>
+        <!-- Example for card-2 -->
+        <div style="width: 35rem;"
+            class="card-1 h-[15rem]  border-2 border-slate-500 flex md:flex-row flex-col items-center bg-gray-100 shadow-lg rounded-lg overflow-hidden row">
+            <div class="mentor-1_wrap flex flex-column col-md-6">
+                <div class="h1-div mt-[10px] ">
+                    <h3 class="text-center text-2xl">Mr.Ramesh </h3>
+                </div>
+
+                <div class="content-box flex-1 ">
+
+                    <p>Seasoned professional with extensive experience in conducting in-depth mock interviews, offering
+                        personalized feedback aimed at refining interviewing skills and enhancing candidate performance
+                        your interviewing prowess and gain invaluable insights</p>
+                </div>
+            </div>
+            <div class="image w-full md:w-1/3 col-md-6">
+                <img src="images/student_3.jpeg" alt="" class="w-[900px] h-[13rem] object-cover">
+            </div>
+        </div>
+
+    </div>
+    </div>
+    <!-- cards end -->
+
+    <!-- test card -->
+
+    <div class="contest_ results">
+        <h1 class="text-center p-[20px]  text-xl">Test Results</h1>
+        <table class="table border-[8px] border-collapse border-gray-200">
+            <thead>
+                <tr>
+                    <th class="border"> Test</th>
+                    <th class="border"> Date </th>
+                    <th class="border"> Results</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th class="border"> Test 1</th>
+                    <td class="border">22 March</td>
+                    <td> <button
+                            class="decoration-zinc-700  bg-slate-500 hover:bg-blue-700  font-bold py-2 px-4 rounded">
+                            Check Result
+                        </button>
+                    </td>
+                </tr>
+                <tr>
+                    <th class="border">Test 2</th>
+                    <td class="border"> 11 June</td>
+                    <td> <button
+                            class="decoration-zinc-700  bg-slate-500 hover:bg-blue-700  font-bold py-2 px-4 rounded">
+                            Check Result
+                        </button>
+                    </td>
+                <tr>
+                    <th class="border"> Test 3</th>
+                    <td class="border">4 July</td>
+                    <td> <button
+                            class="decoration-zinc-700  bg-slate-500 hover:bg-blue-700  font-bold py-2 px-4 rounded">
+                            Check Result
+                        </button>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <!-- test result ends here -->
+    <!-- LeaderBoard -->
+    <div class="wrapper">
+        <div class="leaderboard">
+            <img src="images/aptitude1.webp" class="theme-img">
+            <div class="description">
+                <h1>Aptitude Test</h1>
+                <p>Date: 23/03/2024</p>
+                <input id="search" class="search" placeholder="Search" oninput="search()">
+            </div>
+            <div>
+                <table>
+                    <thead>
+                        <tr>
+                            <td>Rank</td>
+                            <td>
+                                Player
+                            </td>
+                            <td>
+                                Score
+                            </td>
+                            <td>
+                                Institute
+                            </td>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td id="winner">1</td>
+                            <td><img src="images/User1.jpg">
+                                <p>Shaik Mubashira</p>
+                            </td>
+                            <td>239</td>
+                            <td>SVU College of Engineering</td>
+                        </tr>
+
+                        <tr>
+                            <td id="runner-up">2</td>
+                            <td><img src="images/User2.jpg">
+                                <p>Shaik Asif Ali</p>
+                            </td>
+                            <td>209</td>
+                            <td>SVU College of Engineering</td>
+                        </tr>
+
+                        <tr>
+                            <td id="second-runner-up">3</td>
+                            <td><img src="images/User3.jpg">
+                                <p> Lokesh yadav</p>
+                            </td>
+                            <td>154</td>
+                            <td>Mohan Babu University</td>
+                        </tr>
+
+                        <tr>
+                            <td>4</td>
+                            <td><img src="images/User4.jpg">
+                                <p>Kishore kumar</p>
+                            </td>
+                            <td>100</td>
+                            <td>SVU College of Engineering</td>
+                        </tr>
+
+                        <tr>
+                            <td>5</td>
+                            <td><img src="images/User5.jpg">
+                                <p> Raghuvendra Reddy</p>
+                            </td>
+                            <td>82</td>
+                            <td>K.S.R.M college of Engineering</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="lookGoodSpace"></div>
+        </div>
+        <div class="profile-card "></div>
+
+    </div>
+    <!-- LeaderBoard ends -->
+
+    <!-- footer -->
+    </div>
+    </main>
+    <footer class="bg-cyan-950 text-white mt-[20px]">
+        <div class="container mx-auto py-6 px-4">
+            <div class="flex flex-wrap mx-4">
+                <div class="w-full md:w-1/4 px-4 mb-4 md:mb-0">
+                    <h2 class="text-xl font-semibold mb-2">About Us</h2>
+                    <ul>
+
+                        <li><a href="#" class="hover:text-gray-300">Team</a></li>
+                        <li><a href="#" class="hover:text-gray-300">Careers</a></li>
+                        <li><a href="#" class="hover:text-gray-300">Internship</a></li>
+                    </ul>
+                </div>
+                <div class="w-full md:w-1/4 px-4 mb-4 md:mb-0">
+                    <h2 class="text-xl font-semibold mb-2">For Students</h2>
+                    <ul>
+                        <li><a href="#" class="hover:text-gray-300">Internships</a></li>
+                        <li><a href="#" class="hover:text-gray-300">Online Trainings</a></li>
+                        <li><a href="#" class="hover:text-gray-300">Certifications</a></li>
+                    </ul>
+                </div>
+                <div class="w-full md:w-1/4 px-4 mb-4 md:mb-0">
+                    <h2 class="text-xl font-semibold mb-2">For Employers</h2>
+                    <ul>
+                        <li><a href="#" class="hover:text-gray-300">Hire Interns</a></li>
+                        <li><a href="#" class="hover:text-gray-300">Hire Freshers</a></li>
+                        <li><a href="#" class="hover:text-gray-300">Online Assessments</a></li>
+                    </ul>
+                </div>
+                <div class="w-full md:w-1/4 px-4 mb-4 md:mb-0">
+                    <h2 class="text-xl font-semibold mb-2">Connect With Us</h2>
+                    <ul>
+                        <li><a href="#" class="hover:text-gray-300">Contact Us</a></li>
+                        <li><a href="#" class="hover:text-gray-300">Privacy Policy</a></li>
+                        <li><a href="#" class="hover:text-gray-300">FAQs</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="mt-8 text-xl  text-slate-50 text-center">
+                <p> © Made with Love by SMAC</p>
+            </div>
+        </div>
+    </footer>
+    <!-- footer ends -->
+
+    <script src="index.js"></script>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

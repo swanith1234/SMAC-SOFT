@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile Page</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+<!-- navbar starts-->
+ 
+
+<div class="header w-full">
+  <div class="navbar h-16 flex max-w-[100%] items-center bg-cyan-950 text-neutral-50 text-lg" >
+      <div class="menu ml-[20px]" >
+          <i class="fa-solid fa-bars  "></i>
+      </div>
+      <div class="logo  ml-3.5">Logo</div>
+     
+      <div class="flex  items-center ml-[20%] gap-[2rem] w-[55%]">
+          <a href="" class="border-[1px] border-transparent hover:border-white p-[5px]  duration-300">Home</a>
+          <a href="" class="border-[1px] border-transparent hover:border-white p-[5px]  duration-300">About Us</a>
+          <a href="" class="border-[1px] border-transparent hover:border-white p-[5px]  duration-300">Problem of Day</a>
+          <a href="" class="border-[1px] border-transparent hover:border-white p-[5px]  duration-300" >Jobs</a>
+          <a href="" class="border-[1px] border-transparent hover:border-white p-[5px]  duration-300">Contact Us</a>
+      </div>
+  
+  <div class=" flex justify-between items-center gap-[3rem]  ">
+  <button  type="button" class=" border-[1px] border-transparent hover:border-white p-[5px] duration-300  ">Login in</button>
+  <button type="button" class=" border-[1px] border-transparent hover:border-white p-[5px] duration-300 ">Sign Up</button>
+  </div>
+
+</div>
+</div>
+ 
+<!-- navbar ends -->
+
+<!--profile -->
+
+
+ <div class="profile-icon h-[300px] w-[100%] flex flex-col   items-center mt-[20px] bg-gray-100 rounded-lg shadow">
+  <div class="flex w-full  items-center px-[80px]">  
+    <div>
+      <i class="fa-solid fa-user text-[8rem]"></i>
+    </div>  
+      <div class="ml-[80px] mt-[40px]">
+        <h2 class="m-[10px] text-[2rem]">Afroze Mohammad</h2>
+        <h4 class="text-[1rem]">@Afroze_SVU</h4><br><br>
+        <p class="mb-4">Sri Venkateswara University College of Engineering(SVUCE, Tirupati)</p>
+      </div>
+  
+  
+    <button class="flex items-end ml-[600px] mt-[60px]">Edit Profile</button>
+  </div>
+</div>
+
+<!--profile end -->
+
+
+
+<!-- Profile items-->
+<div class="profile-items flex justify-between p-[20px]">
+
+<div class="POD gap-[20px] h-[300px] w-[300px] flex items-center mt-[40px] justify-center flex-col bg-gray-100 rounded-2xl shadow text-4xl ">
+
+  <h2 class="text-2xl mt-[90px]">Current POTD streak</h2> 
+</div>
+
+<div class="Rank gap-[20px] h-[300px] w-[300px] flex items-center mt-[40px] justify-center flex-col bg-gray-100 rounded-2xl shadow text-4xl ">
+
+  <h2 class="text-2xl mt-[90px]">GLobal Rank</h2> 
+</div>
+
+<div class="Points gap-[20px] h-[300px] w-[300px] flex items-center mt-[40px] justify-center flex-col bg-gray-100 rounded-2xl shadow text-4xl ">
+
+  <h2 class="text-2xl mt-[90px]">Points  Earned</h2> 
+</div>
+
+<div class="Badges gap-[20px] h-[300px] w-[300px] flex items-center mt-[40px] justify-center flex-col bg-gray-100 rounded-2xl shadow text-4xl ">
+
+  <h2 class="text-2xl mt-[90px]">Badges Earned</h2> 
+</div>
+</div>
+
+<!-- Profile items end-->
+
+ 
+
+           <div class="contest_previous">
+            <h1 class="text-center p-[20px]  text-xl">Previous Contests</h1>
+            <table class="table border-[8px] border-collapse border-gray-200">
+              <thead>
+                <tr>
+                  <th class="border"> Date Attempted</th>
+                  <th class="border"> Contest Skill </th>
+                  <th class="border"> Points</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <th class="border">22 March</th>
+                  <td class="border">GD</td>
+                  <td class="border">50</td>
+                </tr>
+                <tr>
+                  <th class="border">11 June</th>
+                  <td class="border">Mock Interview</td>
+                  <td class="border">40</td>
+                </tr>
+                <tr>
+                  <th class="border">15 May</th>
+                  <td class="border">Puzzle</td>
+                  <td class="border">70</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          
+
+
+<!-- Previous contest ends -->
+
+<!-- upcoming Contest -->
+
+
+<div class="contest_upcoming">
+  <h1 class="text-center p-[20px]  text-xl">Upcoming  Contests</h1>
+  <table class="table border-[8px] border-collapse border-gray-200">
+    <thead>
+      <tr>
+        <th class="border"> Date to Attempt</th>
+        <th class="border">Contest Skill  </th>
+        <th class="border">Rewards</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <th class="border">22 March</th>
+        <td class="border">GD</td>
+        <td class="border">Badge</td>
+      </tr>
+      <tr>
+        <th class="border">11 June</th>
+        <td class="border">Mock Interview</td>
+        <td class="border">100 points</td>
+      </tr>
+      <tr>
+        <th class="border">15 May</th>
+        <td class="border">Puzzle</td>
+        <td class="border">Platinum Badge</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+<!-- upcoming  Contests end  -->
+
+<!--Apply Job -->
+<div class="Job flex justify-between p-[60px] ">
+
+  <div class="POD   h-[200px] w-[300px] flex items-center mt-[40px] justify-center flex-col bg-gray-100 rounded-2xl shadow text-4xl ">
+    <button class="text-xl mt-[90px]">
+      Upload Resume
+    </button>
+ 
+  </div>
+  
+  <div class="POD   h-[200px] w-[300px] flex items-center mt-[40px] justify-center flex-col bg-gray-100 rounded-2xl shadow text-4xl ">
+    <button class="text-xl mt-[90px]">
+     Apply For Job/Internships
+  
+    </button>
+  </div>
+      
+</div>
+
+
+<!-- Apply Job ends -->
+
+<!-- Social Media  Links-->
+<div class="links  ">
+  <h2 class="text-center text-[2.5rem] p-[10px]">Social Links</h2>
+  <div class="  icons flex justify-center gap-4 text-[2rem]">
+    <i class="fa-brands fa-linkedin"></i>
+    <i class="fa-brands fa-github"></i>
+    <i class="fa-brands fa-discord"></i>
+    <i class="fa-solid fa-envelope"></i>
+    <i class="fa-brands fa-twitter"></i>
+    <i class="fa-brands fa-instagram"></i>
+    <i class="fa-brands fa-facebook"></i>
+  </div>
+  
+
+</div>
+
+<!-- Social Media Links Ends -->
+
+ 
+
+ 
+
+ 
+ <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
+</body>
+</html>

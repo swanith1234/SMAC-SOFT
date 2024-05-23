@@ -1,0 +1,149 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .wrapper{
+    position: relative;
+  }
+
+  .profile-card {
+    width: 45%;
+    height: 10%;
+   display: none;
+    padding: 20px;
+    margin: 20px auto;
+    position: absolute;
+    top: 300px;
+    left: 400px;
+}
+
+.head-shot {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 20px;
+    margin-top: 15%;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.profile-info {
+    text-align: left;
+}
+
+.title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.stream,
+.institution,
+.skills,
+.experience,
+.email {
+    font-size: 1rem;
+    margin-bottom: 5px;
+}
+
+.bio {
+    font-size: 0.9rem;
+    line-height: 1.5;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.social-links {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.social-link {
+    margin: 0 10px;
+    transition: transform 0.2s;
+}
+
+.social-link img {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+
+.social-link:hover {
+    transform: translateY(-3px);
+} 
+
+
+
+  .container {
+    max-width: 800px;
+    margin: 20px auto;
+    background: rgb(238,174,174);
+    background: linear-gradient(225deg, rgba(238,174,174,1) 12%, rgba(148,187,233,1) 100%);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+  }
+  .profile-info h2 {
+    color: #4CAF50; /* Heading color */
+  }
+  .profile-info p {
+    margin: 8px 0;
+  }
+  .profile-info .title {
+    font-size: 24px;
+  }
+  .profile-info .email {
+    font-style: italic;
+  }
+  .profile-info .social-links {
+    margin-top: 20px;
+  }
+  .social-link {
+    display: inline-block;
+    margin-right: 80px;
+    font-size: 40px;
+  }
+
+  .chat-button {
+    background-color:blueviolet;
+    border: none;
+    border-radius: 7px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.3);
+    color: #fff;
+    font-size: 0.9em;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    margin-top: 42px;
+    margin-left: 50px;
+  }
+  
+  .chat-button:hover {
+    background-color: linear-gradient(to right, #ff7eb3 0%, #ff758c 100%);
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.3);
+  }
+  
+  .chat-button strong {
+    text-transform: uppercase;
+    font-weight: bold;
+  }
+
+  .exitButton{
+    float: right;
+    padding: 3px;
+    background: transparent;
+    border: none;
+    font-size: 20px;
+  }
+
+  .hide{
+    display:none;
+  }
+
+

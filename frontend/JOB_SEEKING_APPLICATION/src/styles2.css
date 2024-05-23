@@ -1,0 +1,43 @@
+
+
+.img-fluid{
+    max-width:100%;
+    height: 300px;
+}
+.card{
+    box-shadow: 13px 10px 31px 3px rgba(160,164,219,1);
+
+}
+
+.custom-div {
+    height: 400px;
+    width: 100%;
+    background-image: url('images/box1_image.jpg');
+    background-size: cover; /* Cover the entire div */
+    position: relative; /* Enables absolute positioning inside */
+    color: #ffffff; /* Adjust text color as needed */
+  }
+
+  .custom-logo {
+    /* Adjust the size and position as needed */
+    width: 100px; /* Example logo width */
+    height: auto;
+    position: absolute;
+    top: 40%; /* Distance from the top */
+    left: 25%; /* Center horizontally */
+    transform: translateX(-50%); /* Adjust for true centering */
+  }
+
+  .custom-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 5px;
+  }
+
+  .website-name {
+    font-size: 20px; /* Adjust as needed */
+    font-weight: bold; /* Optional */
+    text-align: center;
+  }

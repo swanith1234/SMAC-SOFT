@@ -1,0 +1,72 @@
+[
+  {
+    "name": "John Doe",
+    "skills": ["Python", "Java", "SQL"],
+    "email": "john.doe@example.com",
+    "cgpa": 3.8,
+    "experience": 2
+  },
+  {
+    "name": "Jane Smith",
+    "skills": ["JavaScript", "HTML", "CSS"],
+    "email": "jane.smith@example.com",
+    "cgpa": 3.5,
+    "experience": 1
+  },
+  {
+    "name": "Michael Johnson",
+    "skills": ["C++", "PHP", "MySQL"],
+    "email": "michael.johnson@example.com",
+    "cgpa": 3.2,
+    "experience": 3
+  },
+  {
+    "name": "Emily Williams",
+    "skills": ["Ruby", "React", "Redux"],
+    "email": "emily.williams@example.com",
+    "cgpa": 3.9,
+    "experience": 2
+  },
+  {
+    "name": "David Brown",
+    "skills": ["Swift", "Objective-C", "iOS Development"],
+    "email": "david.brown@example.com",
+    "cgpa": 3.7,
+    "experience": 1
+  },
+  {
+    "name": "Sarah Lee",
+    "skills": ["Angular", "Node.js", "MongoDB"],
+    "email": "sarah.lee@example.com",
+    "cgpa": 3.4,
+    "experience": 2
+  },
+  {
+    "name": "Christopher Wilson",
+    "skills": ["Django", "Flask", "PostgreSQL"],
+    "email": "christopher.wilson@example.com",
+    "cgpa": 3.6,
+    "experience": 3
+  },
+  {
+    "name": "Jessica Martinez",
+    "skills": ["HTML5", "CSS3", "Bootstrap"],
+    "email": "jessica.martinez@example.com",
+    "cgpa": 3.3,
+    "experience": 1
+  },
+  {
+    "name": "Matthew Anderson",
+    "skills": ["Vue.js", "Express.js", "Firebase"],
+    "email": "matthew.anderson@example.com",
+    "cgpa": 3.8,
+    "experience": 2
+  },
+  {
+    "name": "Amanda Taylor",
+    "skills": ["ASP.NET", "C#", "SQL Server"],
+    "email": "amanda.taylor@example.com",
+    "cgpa": 3.5,
+    "experience": 1
+  }
+]

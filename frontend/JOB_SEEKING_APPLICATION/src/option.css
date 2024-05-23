@@ -1,0 +1,35 @@
+
+
+.container {
+  width: 50%;
+  margin: 100px auto;
+  text-align: center;
+}
+
+h2 {
+  margin-bottom: 20px;
+}
+
+select {
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 100%;
+  max-width: 300px;
+  box-sizing: border-box; /* Ensures padding and border are included in the width */
+  -webkit-appearance: none; /* Hides default dropdown arrow in Chrome/Safari */
+  -moz-appearance: none; /* Hides default dropdown arrow in Firefox */
+  appearance: none; /* Hides default dropdown arrow */
+  background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="12" height="8"><polygon points="0,0 12,0 6,8"/></svg>');
+  background-repeat: no-repeat;
+  background-position: right 10px center;
+  background-size: 10px 8px;
+  cursor: pointer;
+}
+
+/* Styles for when the select element is focused */
+select:focus {
+  outline: none;
+  border-color: #007bff; /* Change border color when focused */
+}
