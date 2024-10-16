@@ -1,5 +1,12 @@
 {
-  "dependencies": {
-    "firebase": "^10.14.1"
+  "name": "smac-soft",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "start": "concurrently \"cd frontend/JOB_SEEKING_APPLICATION && npm run dev\" \"cd backend && nodemon server.js\"",
+    "install": "cd frontend/JOB_SEEKING_APPLICATION && npm install && cd ../../backend && npm install"
+  },
+  "devDependencies": {
+    "concurrently": "^7.0.0"
   }
 }
